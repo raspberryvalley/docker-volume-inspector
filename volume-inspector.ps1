@@ -6,7 +6,9 @@ Write-Host
 This script lists all local Docker volumes and launches 
 the Raspberry Valley volume Inspector.
 
-Docker Hub : https://hub.docker.com/r/raspberryvalley/volume-inspector/
+* Raspberry Valley Makerspace site: https://raspberry-valley.azurewebsites.net
+* Volume Inspector on Docker Hub: https://hub.docker.com/r/raspberryvalley/volume-inspector/
+* Volume Inspector on Github: https://github.com/raspberryvalley/docker-volume-inspector
 
 Listing available volumes on your system:
 

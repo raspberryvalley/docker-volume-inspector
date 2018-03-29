@@ -4,7 +4,9 @@
 # The image created with this Dockerfile serves development in the
 # Raspberry Valley makerspace
 #
+# Raspberry Valley Makerspace site: https://raspberry-valley.azurewebsites.net
 # Volume Inspector on Docker Hub: https://hub.docker.com/r/raspberryvalley/volume-inspector/
+# Volume Inspector on Github: https://github.com/raspberryvalley/docker-volume-inspector
 #
 
 FROM alpine:3.6

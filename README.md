@@ -52,7 +52,7 @@ docker run --rm -it -v YourVolumeName:/home raspberryvalley/volume-inspector
 ```
 
 *Volume Inspector in action (looking at Mosquitto configuration files)*:
-[Inspector in Action](img/Inspector-in-Action.jpg)
+![Inspector in Action](img/Inspector-in-Action.jpg)
 
 You are basically creating a temporary container (it will be removed after use due to the '--rm' switch), which maps 'YourVolumeName' to the home directory of Alpine, and which launches the Midnight commander to inspect and edit files.
 
@@ -72,6 +72,11 @@ volume-inspector.ps1
 
 The script will first list all the volumes available, then prompt you for the volume name you wish to inspect, and finally launch the Docker image of Inspector.
 
+*PowerShell Script for Volume Inspector*:
+![Powershell script in action](img/Inspector-PowerShell.jpg)
+
 ## Links
 
+* [Raspberry Valley Makerspace site](https://raspberry-valley.azurewebsites.net)
 * [Volume Inspector on Docker Hub](https://hub.docker.com/r/raspberryvalley/volume-inspector/)
+* [Volume Inspector on Github](https://github.com/raspberryvalley/docker-volume-inspector) (this repository)
