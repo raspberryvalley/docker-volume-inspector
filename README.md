@@ -1,5 +1,7 @@
 # Raspberry Valley Volume Inspector
 
+We are a maker community in Karlskrona, Sweden. See our site for other ideas and activities: [Raspberry Valley](https://raspberry-valley.azurewebsites.net).
+
 Not all of us are command-line gurus and inspecting volumes in our Docker projects can be a challenge.
 
 This is a very small and simple utility which allows you to view volumes and if needed, modify settings within. It is aimed at our users who want to use our Docker images (and linked volumes) without the need to learn the internals.
@@ -77,6 +79,12 @@ The script will first list all the volumes available, then prompt you for the vo
 
 ## Links
 
-* [Raspberry Valley Makerspace site](https://raspberry-valley.azurewebsites.net)
 * [Volume Inspector on Docker Hub](https://hub.docker.com/r/raspberryvalley/volume-inspector/)
 * [Volume Inspector on Github](https://github.com/raspberryvalley/docker-volume-inspector) (this repository)
+
+Raspberry Valley makerspace links
+
+* [Raspberry Valley](https://raspberry-valley.azurewebsites.net) - Other things we make and do
+* [Raspberry Valley on Twitter](https://twitter.com/RaspberryValley)
+* [Raspberry Valley on Github](https://github.com/raspberryvalley)
+* [Raspberry Valley Docker Hub Images](hub.docker.com/r/raspberryvalley/)
