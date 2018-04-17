@@ -77,6 +77,10 @@ The script will first list all the volumes available, then prompt you for the vo
 *PowerShell Script for Volume Inspector*:
 ![Powershell script in action](img/Inspector-PowerShell.jpg)
 
+## Powershell Script for Volume Backup
+
+As a bonus, we're adding a script to backup the volume content to your host machine. Simply run the script **volume-backup.ps1** to copy all content from a given volume to your host machine.
+
 ## Links
 
 * [Volume Inspector on Docker Hub](https://hub.docker.com/r/raspberryvalley/volume-inspector/)
