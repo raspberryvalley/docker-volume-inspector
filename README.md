@@ -77,9 +77,9 @@ The script will first list all the volumes available, then prompt you for the vo
 *PowerShell Script for Volume Inspector*:
 ![Powershell script in action](img/Inspector-PowerShell.jpg)
 
-## Powershell Script for Volume Backup
+## Powershell Scripts for Volume Backup
 
-As a bonus, we're adding a script to backup the volume content to your host machine. Simply run the script **volume-backup.ps1** to copy all content from a given volume to your host machine.
+As a bonus, we're adding PowerShell scripts to backup the volume content to your host machine. Simply run the script **volume-backup.ps1** to copy all content from a given volume to your host machine or **volume-backup-tar.ps1** to backup the volume to your host machine as a compressed file. This is useful for restoring your volume content elsewhere.
 
 ## Links
 
