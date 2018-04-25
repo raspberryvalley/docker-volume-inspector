@@ -21,6 +21,5 @@ Write-Host
 
 $volumeName = Read-Host -Prompt 'Enter Volume Name to backup (CTRL-C to quit)'
 
-$command = "docker run --rm -it -v ${volumeName}:/home raspberryvalley/volume-inspector"
 $command = "docker run --rm -v ${volumeName}:/volume -v $(pwd):/backup alpine sh -c 'cp -r /volume /backup'"
 iex $command
