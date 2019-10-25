@@ -1,7 +1,5 @@
 # Raspberry Valley Volume Inspector
 
-We are a maker community in Karlskrona, Sweden. See our site for other ideas and activities: [Raspberry Valley](https://raspberry-valley.azurewebsites.net).
-
 Not all of us are command-line gurus and inspecting volumes in our Docker projects can be a challenge.
 
 This is a very small and simple utility which allows you to view volumes and if needed, modify settings within. It is aimed at our users who want to use our Docker images (and linked volumes) without the need to learn the internals.
@@ -80,6 +78,14 @@ The script will first list all the volumes available, then prompt you for the vo
 ## Powershell Scripts for Volume Backup
 
 As a bonus, we're adding PowerShell scripts to backup the volume content to your host machine. Simply run the script **volume-backup.ps1** to copy all content from a given volume to your host machine or **volume-backup-tar.ps1** to backup the volume to your host machine as a compressed file. This is useful for restoring your volume content elsewhere.
+
+## About
+
+Raspberry Valley is a maker community in Karlskrona, Sweden, sponsored by [Dynapac](https://dynapac.com/en). We run makerspaces every week, working with Raspberry Pis, Arduinos and other interesting hardware.
+
+This repository is here to support our community of makers. A lot of our achievements are based and inspired by the community at large. We wish to pay back and share our experiences and lessons learned. Join us!
+
+You can find our pages here: [Raspberry Valley](https://raspberry-valley.azurewebsites.net). You can also join us on [Twitter](https://twitter.com/RaspberryValley) or check [Docker Hub](https://hub.docker.com/r/raspberryvalley/) for images of interest.
 
 ## Links
 
