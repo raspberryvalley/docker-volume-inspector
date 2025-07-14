@@ -6,16 +6,18 @@ This is a very small and simple utility which allows you to view volumes and if 
 
 ## Docker Image
 
-Our Docker image is based on [alpine 3.6](https://hub.docker.com/_/alpine/), a minimal Linux image (under 4MB). This image is enhanced with basic tools to browse and view/edit data inside data volumes. Data volumes are linked to the home directory of the *Volume Inspector*. Total size is roughly 19MB.
+Our Docker image is based on [alpine 3.22](https://hub.docker.com/_/alpine/), a minimal Linux image (under 4MB). This image is enhanced with basic tools to browse and view/edit data inside data volumes. Data volumes are linked to the home directory of the *Volume Inspector*. Total size is roughly 24MB.
 
 The image contains also the following tools:
 
 * [Midnight Commander](http://midnight-commander.org/) - a GNU visual file manager. Those of you who have been using *Norton Commander* become immediately power users
 * [Nano Editor](https://www.nano-editor.org/) - A lightweight GNU text editor. We chose it simply because our makerspace users have it as a main text editor on Raspberry Pi
 
+> Both this image and powershell scripts work with [Podman](https://podman.io/) too! Just replace all docker commands with 'podman'.
+
 ## Getting the Inspector
 
-You can pull the *Inspector* from our Raspberry Valley Docker Hub. Simply type the following:
+You can pull the [Volume Inspector](https://hub.docker.com/r/raspberryvalley/volume-inspector) from our Raspberry Valley Docker Hub. Simply type the following:
 
 ```bash
 docker pull raspberryvalley/volume-inspector
@@ -56,7 +58,7 @@ docker run --rm -it -v YourVolumeName:/home raspberryvalley/volume-inspector
 
 You are basically creating a temporary container (it will be removed after use due to the '--rm' switch), which maps 'YourVolumeName' to the home directory of Alpine, and which launches the Midnight commander to inspect and edit files.
 
-To close *Inspector* (and delete the container), simply type
+To close *Inspector* (and delete the container), simply press **F10** (this closes Midnight Commander), or type
 
 ```bash
 exit
@@ -81,11 +83,11 @@ As a bonus, we're adding PowerShell scripts to backup the volume content to your
 
 ## About
 
-Raspberry Valley is a maker community in Karlskrona, Sweden, sponsored by [Dynapac](https://dynapac.com/en). We run makerspaces every week, working with Raspberry Pis, Arduinos and other interesting hardware.
+Raspberry Valley is a maker community in Karlskrona, Sweden, sponsored by [Dynapac](https://dynapac.com/en). We run makerspaces, working with Raspberry Pis, Arduinos and other interesting hardware.
 
 This repository is here to support our community of makers. A lot of our achievements are based and inspired by the community at large. We wish to pay back and share our experiences and lessons learned. Join us!
 
-You can find our pages here: [Raspberry Valley](https://raspberry-valley.azurewebsites.net). You can also join us on [Twitter](https://twitter.com/RaspberryValley) or check [Docker Hub](https://hub.docker.com/r/raspberryvalley/) for images of interest.
+You can find our pages here: [Raspberry Valley](https://raspberry-valley.azurewebsites.net). You can also check [Docker Hub](https://hub.docker.com/r/raspberryvalley/) for images of interest.
 
 ## Links
 
@@ -95,6 +97,5 @@ You can find our pages here: [Raspberry Valley](https://raspberry-valley.azurewe
 Raspberry Valley makerspace links
 
 * [Raspberry Valley](https://raspberry-valley.azurewebsites.net) - Other things we make and do
-* [Raspberry Valley on Twitter](https://twitter.com/RaspberryValley)
 * [Raspberry Valley on Github](https://github.com/raspberryvalley)
 * [Raspberry Valley Docker Hub Images](hub.docker.com/r/raspberryvalley/)

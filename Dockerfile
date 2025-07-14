@@ -11,9 +11,8 @@
 # * Knowledge base: https://raspberry-valley.azurewebsites.net
 # * Github pages: https://github.com/raspberryvalley
 # * Docker hub: hub.docker.com/r/raspberryvalley/
-# * Follow on Twitter: https://twitter.com/RaspberryValley
 
-FROM alpine:3.6
+FROM alpine:3.22
 LABEL maintainer = Raspberry Valley <raspberryvalley@outlook.com>
 
 RUN apk update && apk add \
